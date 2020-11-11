@@ -18,7 +18,7 @@ function fail(item) {
   const durable = item.durability;
   return {
     ...item,
-    durability: enhace < 15 ? durable - 5 : durable - 10,
+    durability: enhance < 15 ? durable - 5 : durable - 10,
     enhancement: enhance > 16 ? enhance - 1 : enhance,
   };
 }
